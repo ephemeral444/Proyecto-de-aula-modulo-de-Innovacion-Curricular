@@ -5,7 +5,7 @@
 - [x] **Fase 2 (Cristian Díaz):** Peticiones (Crear, Reemplazo, Actualizar) y excepción de dominio `NoEncontradoExcepcion`.
 - [x] **Fase 3 (Juan Pablo Acevedo):** Interfaces y repositorios SQL Server con consultas parametrizadas.
 - [x] **Fase 4 (Cristian Díaz):** Capa de servicios desacoplada de HTTP y suite de pruebas de capas.
-- [ ] **Fase 5 (Juan Pablo Acevedo):** Controladores REST con 6 endpoints y configuración en `Program.cs`.
-- [ ] **Fase 6 (Cristian Díaz):** Front-end web resiliente en HTML5/JS con aviso en español.
+- [x] **Fase 5 (Juan Pablo Acevedo):** Controladores REST con 6 endpoints y configuración en `Program.cs`.
+- [x] **Fase 6 (Cristian Díaz):** Front-end web resiliente en HTML5/JS con aviso en español.
 - [ ] **Fase 7 (Juan Pablo Acevedo):** Dockerfiles y orquestación unificada con `docker-compose.yml`.
 - [ ] **Fase 8 (Equipo):** Verificación de lista de chequeo (`9_checklist.md`) y sustentación teórica en `RESPUESTAS.md`.
