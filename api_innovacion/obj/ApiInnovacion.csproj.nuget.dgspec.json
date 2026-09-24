@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ephem\\source\\repos\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\ApiInnovacion.csproj": {}
+    "C:\\Users\\salak401\\Downloads\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\ApiInnovacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ephem\\source\\repos\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\ApiInnovacion.csproj": {
+    "C:\\Users\\salak401\\Downloads\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\ApiInnovacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ephem\\source\\repos\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\ApiInnovacion.csproj",
+        "projectUniqueName": "C:\\Users\\salak401\\Downloads\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\ApiInnovacion.csproj",
         "projectName": "ApiInnovacion",
-        "projectPath": "C:\\Users\\ephem\\source\\repos\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\ApiInnovacion.csproj",
-        "packagesPath": "C:\\Users\\ephem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ephem\\source\\repos\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\obj\\",
+        "projectPath": "C:\\Users\\salak401\\Downloads\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\ApiInnovacion.csproj",
+        "packagesPath": "C:\\Users\\salak401\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\salak401\\Downloads\\Proyecto-de-aula-modulo-de-Innovacion-Curricular\\api_innovacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ephem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\salak401\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,7 +31,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -46,11 +45,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Dapper": {
@@ -81,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,12 +4,12 @@ using ApiInnovacion.Peticiones;
 using ApiInnovacion.Repositorios;
 using ApiInnovacion.Servicios;
 
-Console.WriteLine("=== Iniciando Verificacion de Aislamiento de Capas ===");
+Console.WriteLine("=== Iniciando Verificación de Aislamiento de Capas ===");
 
 var repoMock = new RepositorioUniversidadMock();
 var servicio = new ServicioUniversidad(repoMock);
 
-// 1. Prueba de creacion
+// 1. Prueba de creación
 var nuevaUni = await servicio.CrearAsync(new UniversidadCrear
 {
     Id = 10,
@@ -17,26 +17,26 @@ var nuevaUni = await servicio.CrearAsync(new UniversidadCrear
     Tipo = "Campus",
     Ciudad = "Medellin"
 });
-Console.WriteLine($"[OK] Servicio creo correctamente recurso con Id: {nuevaUni.Id}");
+Console.WriteLine($"[OK] Servicio creó correctamente recurso con Id: {nuevaUni.Id}");
 
 // 2. Prueba de lectura
 var uniObtenida = await servicio.ObtenerPorIdAsync(10);
 Console.WriteLine($"[OK] Servicio obtuvo: {uniObtenida.Nombre}");
 
-// 3. Prueba de excepcion de dominio desacoplada
+// 3. Prueba de excepción de dominio desacoplada
 try
 {
     await servicio.ObtenerPorIdAsync(999);
-    Console.WriteLine("[FALLO] Deberia haber lanzado NoEncontradoExcepcion.");
+    Console.WriteLine("[FALLO] Debería haber lanzado NoEncontradoExcepcion.");
 }
 catch (NoEncontradoExcepcion ex)
 {
-    Console.WriteLine($"[OK] Capa de dominio lanzo excepcion desacoplada correctamente: '{ex.Message}'");
+    Console.WriteLine($"[OK] Capa de dominio lanzó excepción desacoplada correctamente: '{ex.Message}'");
 }
 
-Console.WriteLine("=== Todas las pruebas de capa pasaron exitosamente ===");
+Console.WriteLine("=== Todas las pruebas de capas pasaron exitosamente ===");
 
-// Mock adaptado a las firmas de IRepositorioUniversidad
+// Mock adaptado con precisión a la interfaz IRepositorioUniversidad
 public class RepositorioUniversidadMock : IRepositorioUniversidad
 {
     private readonly List<Universidad> _items = new();
@@ -64,7 +64,7 @@ public class RepositorioUniversidadMock : IRepositorioUniversidad
         return Task.FromResult(false);
     }
 
-    public Task<bool> EliminarLogicoAsync(int id)
+    public Task<bool> BorradoLogicoAsync(int id)
     {
         var itm = _items.FirstOrDefault(x => x.Id == id);
         if (itm != null)
