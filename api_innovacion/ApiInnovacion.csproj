@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
@@ -20,3 +21,5 @@
 	</ItemGroup>
 
 </Project>
+=======
+>>>>>>> origin/main
